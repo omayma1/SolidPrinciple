@@ -48,4 +48,9 @@ Split interfaces to not forcing classes to handle what they don’t need, they n
 
 One should depend upon abstraction not concretion.
 High level class must not depend upon a lower level class.Both must depend uponabstraction .And an abstraction must not depend details but the details must depend upon abstraction.
-For example an object B cannot inherits directly from an another object A .Instead ,B inhert from the interface of A ,and object A can be reference type of the interface A.
+
+     For example an object B cannot inherits directly from an another object A .Instead ,B inhert from the interface of A ,and object A can be reference type of the interface A.
+
+# Conclusion
+
+The SOLID principles are the best solution to produce clean code and make maintenance easier.
